@@ -1,3 +1,10 @@
+## 🌟 Featured: Contributing to google/gemini-cli
+I actively contribute to **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** — Google's official open-source Gemini AI command-line tool.
+
+**Recent PR:** `fix(cli): synthesize bracketed-paste markers for unbracketed multi-line input` — fixes premature submission of multi-line pastes on Windows Terminal / PowerShell / WSL2 (under active review, 3 comments).
+
+---
+
 # Hi there, I'm Deevi Eswar 👋
 ### 👨‍💻 Full-Stack Developer | Java • Spring Boot • Next.js (TSX) • AI Integrations
 
