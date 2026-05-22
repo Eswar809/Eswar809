@@ -289,51 +289,6 @@ Spring Boot MVC with 3 role tiers (Admin/Student/Teacher) using Spring Security 
 
 <br/><br/>
 
-<!-- ============================ FOOTER ============================ -->
-<table width="100%">
-<tr>
-<td width="34%" valign="top">
-
-<img src="https://readme-typing-svg.demolab.com?font=Caveat+Brush&size=36&duration=1&pause=99999999&color=2d1e16&center=false&vCenter=true&width=200&height=60&lines=eswar" alt="" />
-
-<sub>© 2026 Deevi Eswar. <br/>All rights reserved.</sub>
-
-</td>
-<td width="22%" valign="top">
-
-**Connect**
-
-<sub>
-  <a href="mailto:deevieswar44@gmail.com">Send a Message</a><br/>
-  <a href="https://www.linkedin.com/in/eswar-dev-55a54536a/">Schedule a Call</a><br/>
-  <a href="https://www.linkedin.com/in/eswar-dev-55a54536a/">LinkedIn</a>
-</sub>
-
-</td>
-<td width="22%" valign="top">
-
-**About**
-
-<sub>
-  <a href="#-about-">About</a><br/>
-  <a href="https://eswardev.netlify.app/">Resume</a><br/>
-  <a href="https://github.com/Eswar809">GitHub</a>
-</sub>
-
-</td>
-<td width="22%" valign="top">
-
-**Craft**
-
-<sub>
-  <a href="#-craft-">Tools I use</a><br/>
-  <a href="https://leetcode.com/u/Eswardeevi/">LeetCode 125+</a><br/>
-  <a href="https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+author%3AEswar809">OSS PRs</a>
-</sub>
-
-</td>
-</tr>
-</table>
 
 <!-- ============================ FOOTER ============================ -->
 <div align="center">
