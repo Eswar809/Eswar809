@@ -289,12 +289,3 @@ Spring Boot MVC with 3 role tiers (Admin/Student/Teacher) using Spring Security 
 
 <br/><br/>
 
-
-<!-- ============================ FOOTER ============================ -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:09090b,50:1e1b4b,100:06b6d4&height=80&section=footer&text=&fontColor=fafafa" width="100%" alt="footer" />
-
-<sub>Always learning in public · Last refresh May 2026</sub>
-
-</div>
