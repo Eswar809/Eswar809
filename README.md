@@ -108,7 +108,6 @@
 | 🥇 **TCS CodeVita Season 13 (2025)** | **Global Rank 2028** of **100,000+** participants — **Top 2%** |
 | 🧮 **LeetCode** | **150+ problems** solved |
 | ☁️ **Google Cloud Skills Boost** | **Gold League** · **21,010 pts** · **25+ badges** |
-| 🧪 **LLM evaluation engineering** | [**rag-eval-pipeline**](https://github.com/Eswar809/rag-eval-pipeline) — merge-blocking CI quality gates · chunking retune lifted Faithfulness **0.45 → 0.82** |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:7aa2f7,100:bb9af7&height=3" width="100%" alt=""/>
 
