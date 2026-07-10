@@ -1,0 +1,22 @@
+<svg width="100%" viewBox="0 0 960 236" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deevi Eswar — Backend and AI engineer. Systems that survive production.">
+  <style>
+    .name { font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; font-size: 56px; letter-spacing: -0.5px; fill: #E6EDF3; }
+    .role { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 19px; fill: #9DA7B3; }
+    .mono { font-family: 'SFMono-Regular', ui-monospace, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; fill: #7D8590; }
+    .ok   { fill: #3FB950; }
+    .dot  { fill: #3FB950; animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+  </style>
+
+  <rect width="960" height="236" fill="#0D1117"/>
+
+  <text x="64" y="102" class="name">Deevi Eswar</text>
+  <text x="64" y="138" class="role">Backend &amp; AI engineer — I build systems that survive production.</text>
+
+  <line x1="64" y1="172" x2="896" y2="172" stroke="#21262D" stroke-width="1"/>
+
+  <circle class="dot" cx="70" cy="201" r="4"/>
+  <text x="84" y="206" class="mono">in production: PaperCheck AI · CA GURU  ·  <tspan class="ok">merged</tspan> @ google-gemini/gemini-cli</text>
+  <text x="896" y="206" class="mono" text-anchor="end">open to SWE roles · 2026</text>
+</svg>
