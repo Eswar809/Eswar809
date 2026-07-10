@@ -1,100 +1,22 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deevi Eswar — Backend and AI Engineer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1221"/>
-      <stop offset="1" stop-color="#101B33"/>
-    </linearGradient>
+<svg width="100%" viewBox="0 0 960 236" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deevi Eswar — Backend and AI engineer. Systems that survive production.">
+  <style>
+    .name { font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; font-size: 56px; letter-spacing: -0.5px; fill: #1F2328; }
+    .role { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 19px; fill: #57606A; }
+    .mono { font-family: 'SFMono-Regular', ui-monospace, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; fill: #6E7781; }
+    .ok   { fill: #1A7F37; }
+    .dot  { fill: #1A7F37; animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+  </style>
 
-    <linearGradient id="nameGrad" x1="340" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0">
-        <animate attributeName="stop-color" values="#00F5A0;#00D9F5;#8B5CF6;#FF6EC7;#00F5A0" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.5">
-        <animate attributeName="stop-color" values="#00D9F5;#8B5CF6;#FF6EC7;#00F5A0;#00D9F5" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1">
-        <animate attributeName="stop-color" values="#8B5CF6;#FF6EC7;#00F5A0;#00D9F5;#8B5CF6" dur="12s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
+  <rect width="960" height="236" fill="#FFFFFF"/>
 
-    <linearGradient id="waveGrad" x1="0" y1="0" x2="2400" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0">
-        <animate attributeName="stop-color" values="#00F5A0;#00D9F5;#8B5CF6;#FF6EC7;#00F5A0" dur="14s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.5">
-        <animate attributeName="stop-color" values="#00D9F5;#8B5CF6;#FF6EC7;#00F5A0;#00D9F5" dur="14s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1">
-        <animate attributeName="stop-color" values="#8B5CF6;#FF6EC7;#00F5A0;#00D9F5;#8B5CF6" dur="14s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
+  <text x="64" y="102" class="name">Deevi Eswar</text>
+  <text x="64" y="138" class="role">Backend &amp; AI engineer — I build systems that survive production.</text>
 
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#16233F" stroke-width="1" fill="none"/>
-    </pattern>
+  <line x1="64" y1="172" x2="896" y2="172" stroke="#D0D7DE" stroke-width="1"/>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="60"/>
-    </filter>
-  </defs>
-
-  <!-- background -->
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
-
-  <!-- aurora glows -->
-  <g filter="url(#glow)" opacity="0.34">
-    <ellipse cx="210" cy="70" rx="230" ry="95" fill="#00F5A0">
-      <animate attributeName="cx" values="210;330;210" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="fill" values="#00F5A0;#00D9F5;#00F5A0" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="1000" cy="60" rx="250" ry="100" fill="#8B5CF6">
-      <animate attributeName="cx" values="1000;880;1000" dur="16s" repeatCount="indefinite"/>
-      <animate attributeName="fill" values="#8B5CF6;#FF6EC7;#8B5CF6" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="620" cy="265" rx="310" ry="115" fill="#00D9F5">
-      <animate attributeName="cy" values="265;235;265" dur="12s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
-
-  <!-- floating particles -->
-  <g>
-    <circle cx="150" cy="185" r="2.5" fill="#00D9F5" opacity="0.7">
-      <animate attributeName="cy" values="185;165;185" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1055" cy="150" r="2" fill="#FF6EC7" opacity="0.7">
-      <animate attributeName="cy" values="150;175;150" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="930" cy="215" r="2.5" fill="#00F5A0" opacity="0.7">
-      <animate attributeName="cy" values="215;196;215" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="255" cy="85" r="2" fill="#8B5CF6" opacity="0.8">
-      <animate attributeName="cy" values="85;108;85" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="760" cy="66" r="2" fill="#00F5A0" opacity="0.55">
-      <animate attributeName="cy" values="66;90;66" dur="7.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="430" cy="60" r="1.8" fill="#FF6EC7" opacity="0.6">
-      <animate attributeName="cy" values="60;82;60" dur="8.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- name -->
-  <text x="600" y="126" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="3" fill="url(#nameGrad)">DEEVI ESWAR</text>
-
-  <!-- role -->
-  <text x="600" y="168" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="9" fill="#C9D1D9">BACKEND &amp; AI ENGINEER</text>
-
-  <!-- terminal tagline -->
-  <text x="600" y="210" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="15" fill="#8B949E">$ shipping systems that survive production<tspan fill="#00D9F5" font-weight="700"> &#9612;<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></tspan></text>
-
-  <!-- aurora waves -->
-  <g>
-    <path fill="url(#waveGrad)" opacity="0.22" d="M0,250 Q150,280 300,250 T600,250 T900,250 T1200,250 T1500,250 T1800,250 T2100,250 T2400,250 L2400,300 L0,300 Z">
-      <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="22s" repeatCount="indefinite"/>
-    </path>
-    <path fill="url(#waveGrad)" opacity="0.55" d="M0,262 Q150,240 300,262 T600,262 T900,262 T1200,262 T1500,262 T1800,262 T2100,262 T2400,262 L2400,300 L0,300 Z">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite"/>
-    </path>
-  </g>
+  <circle class="dot" cx="70" cy="201" r="4"/>
+  <text x="84" y="206" class="mono">in production: PaperCheck AI · CA GURU  ·  <tspan class="ok">merged</tspan> @ google-gemini/gemini-cli</text>
+  <text x="896" y="206" class="mono" text-anchor="end">open to SWE roles · 2026</text>
 </svg>
