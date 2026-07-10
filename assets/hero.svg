@@ -7,25 +7,25 @@
 
     <linearGradient id="nameGrad" x1="340" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0">
-        <animate attributeName="stop-color" values="#00F5A0;#00D9F5;#8B5CF6;#00F5A0" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00F5A0;#00D9F5;#8B5CF6;#FF6EC7;#00F5A0" dur="12s" repeatCount="indefinite"/>
       </stop>
       <stop offset="0.5">
-        <animate attributeName="stop-color" values="#00D9F5;#8B5CF6;#00F5A0;#00D9F5" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00D9F5;#8B5CF6;#FF6EC7;#00F5A0;#00D9F5" dur="12s" repeatCount="indefinite"/>
       </stop>
       <stop offset="1">
-        <animate attributeName="stop-color" values="#8B5CF6;#00F5A0;#00D9F5;#8B5CF6" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#8B5CF6;#FF6EC7;#00F5A0;#00D9F5;#8B5CF6" dur="12s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <linearGradient id="waveGrad" x1="0" y1="0" x2="2400" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0">
-        <animate attributeName="stop-color" values="#00F5A0;#00D9F5;#8B5CF6;#00F5A0" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00F5A0;#00D9F5;#8B5CF6;#FF6EC7;#00F5A0" dur="14s" repeatCount="indefinite"/>
       </stop>
       <stop offset="0.5">
-        <animate attributeName="stop-color" values="#00D9F5;#8B5CF6;#00F5A0;#00D9F5" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00D9F5;#8B5CF6;#FF6EC7;#00F5A0;#00D9F5" dur="14s" repeatCount="indefinite"/>
       </stop>
       <stop offset="1">
-        <animate attributeName="stop-color" values="#8B5CF6;#00F5A0;#00D9F5;#8B5CF6" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#8B5CF6;#FF6EC7;#00F5A0;#00D9F5;#8B5CF6" dur="14s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
@@ -43,12 +43,14 @@
   <rect width="1200" height="300" fill="url(#grid)"/>
 
   <!-- aurora glows -->
-  <g filter="url(#glow)" opacity="0.32">
+  <g filter="url(#glow)" opacity="0.34">
     <ellipse cx="210" cy="70" rx="230" ry="95" fill="#00F5A0">
       <animate attributeName="cx" values="210;330;210" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#00F5A0;#00D9F5;#00F5A0" dur="18s" repeatCount="indefinite"/>
     </ellipse>
     <ellipse cx="1000" cy="60" rx="250" ry="100" fill="#8B5CF6">
       <animate attributeName="cx" values="1000;880;1000" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#8B5CF6;#FF6EC7;#8B5CF6" dur="18s" repeatCount="indefinite"/>
     </ellipse>
     <ellipse cx="620" cy="265" rx="310" ry="115" fill="#00D9F5">
       <animate attributeName="cy" values="265;235;265" dur="12s" repeatCount="indefinite"/>
@@ -60,7 +62,7 @@
     <circle cx="150" cy="185" r="2.5" fill="#00D9F5" opacity="0.7">
       <animate attributeName="cy" values="185;165;185" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1055" cy="150" r="2" fill="#00D9F5" opacity="0.6">
+    <circle cx="1055" cy="150" r="2" fill="#FF6EC7" opacity="0.7">
       <animate attributeName="cy" values="150;175;150" dur="7s" repeatCount="indefinite"/>
     </circle>
     <circle cx="930" cy="215" r="2.5" fill="#00F5A0" opacity="0.7">
@@ -72,7 +74,7 @@
     <circle cx="760" cy="66" r="2" fill="#00F5A0" opacity="0.55">
       <animate attributeName="cy" values="66;90;66" dur="7.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="430" cy="60" r="1.8" fill="#00D9F5" opacity="0.5">
+    <circle cx="430" cy="60" r="1.8" fill="#FF6EC7" opacity="0.6">
       <animate attributeName="cy" values="60;82;60" dur="8.5s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -91,7 +93,7 @@
     <path fill="url(#waveGrad)" opacity="0.22" d="M0,250 Q150,280 300,250 T600,250 T900,250 T1200,250 T1500,250 T1800,250 T2100,250 T2400,250 L2400,300 L0,300 Z">
       <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="22s" repeatCount="indefinite"/>
     </path>
-    <path fill="url(#waveGrad)" opacity="0.5" d="M0,262 Q150,240 300,262 T600,262 T900,262 T1200,262 T1500,262 T1800,262 T2100,262 T2400,262 L2400,300 L0,300 Z">
+    <path fill="url(#waveGrad)" opacity="0.55" d="M0,262 Q150,240 300,262 T600,262 T900,262 T1200,262 T1500,262 T1800,262 T2100,262 T2400,262 L2400,300 L0,300 Z">
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite"/>
     </path>
   </g>
