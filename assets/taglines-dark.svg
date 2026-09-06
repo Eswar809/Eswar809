@@ -1,8 +1,0 @@
-<svg width="1000" height="54" viewBox="0 0 1000 54" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Event-driven systems that don't drop messages · AI grading in production, 150+ answer sheets a day · Merged PR at google-gemini/gemini-cli · B.Tech CSE, Class of 2026">
-  <g font-family="Consolas,'Courier New',monospace" font-size="19" font-weight="600" text-anchor="middle">
-    <text x="500" y="34" fill="#00D9F5" opacity="0">⚡ Event-driven systems that don't drop messages<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></text>
-    <text x="500" y="34" fill="#00F5A0" opacity="0">🤖 AI grading in production — 150+ answer sheets a day<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></text>
-    <text x="500" y="34" fill="#8B5CF6" opacity="0">✅ Merged PR @ google-gemini/gemini-cli<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></text>
-    <text x="500" y="34" fill="#FFB86C" opacity="0">🎓 B.Tech CSE (AI &amp; DS) · Class of 2026<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></text>
-  </g>
-</svg>

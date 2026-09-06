@@ -1,39 +1,66 @@
-<svg width="100%" viewBox="0 0 1200 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Impact: 150+ answer sheets graded daily in production · ₹15–21 per paper vs ₹100–190 human · PR 26884 merged at gemini-cli · Global rank 2028 of 100,000+ TCS CodeVita S13 · 196 LeetCode problems solved">
+<svg width="1200" height="170" viewBox="0 0 1200 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Impact: ~85% cheaper AI grading live in production · 85K+ lines of TypeScript in one product · 12 PRs to Google's gemini-cli with 1 merged · Top ~2% in TCS CodeVita S13 global rank 2028 · 170+ LeetCode problems solved">
   <defs>
     <style>
-      .num { font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size:38px; font-weight:800; }
-      .lbl { font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size:12.5px; fill:#57606A; }
+      .num { font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size:44px; font-weight:800; }
+      .lbl { font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size:13.5px; fill:#8B949E; }
     </style>
   </defs>
 
-  <g>
-    <rect x="20" y="28" width="219" height="114" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <text x="129" y="82" text-anchor="middle" class="num" fill="#047857">150+</text>
-    <text x="129" y="106" text-anchor="middle" class="lbl">answer sheets graded daily</text>
-    <text x="129" y="124" text-anchor="middle" class="lbl">PaperCheck AI · live in production</text>
+  <!-- separators -->
+  <g stroke="#8B949E" stroke-opacity="0.28">
+    <line x1="240" y1="34" x2="240" y2="138"/>
+    <line x1="480" y1="34" x2="480" y2="138"/>
+    <line x1="720" y1="34" x2="720" y2="138"/>
+    <line x1="960" y1="34" x2="960" y2="138"/>
   </g>
-  <g>
-    <rect x="255" y="28" width="219" height="114" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <text x="364" y="82" text-anchor="middle" class="num" fill="#0E7490">₹15–21</text>
-    <text x="364" y="106" text-anchor="middle" class="lbl">per paper vs ₹100–190 human</text>
-    <text x="364" y="124" text-anchor="middle" class="lbl">minutes instead of 2–3 days</text>
+
+  <!-- tile 1: ~85% -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.6s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0 12;0 0"/>
+    <text x="120" y="76" text-anchor="middle" class="num" fill="#00A87E">~85%</text>
+    <rect x="102" y="90" width="0" height="3.5" rx="1.75" fill="#00A87E"><animate attributeName="width" from="0" to="36" dur="0.5s" begin="0.6s" fill="freeze"/></rect>
+    <text x="120" y="116" text-anchor="middle" class="lbl">cheaper AI grading —</text>
+    <text x="120" y="136" text-anchor="middle" class="lbl">live, used daily by faculty</text>
   </g>
-  <g>
-    <rect x="490" y="28" width="219" height="114" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <text x="599" y="82" text-anchor="middle" class="num" fill="#6D28D9">#26884</text>
-    <text x="599" y="106" text-anchor="middle" class="lbl">merged @ gemini-cli</text>
-    <text x="599" y="124" text-anchor="middle" class="lbl">Google maintainer approved</text>
+
+  <!-- tile 2: 85K+ -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.3s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.6s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0 12;0 0"/>
+    <text x="360" y="76" text-anchor="middle" class="num" fill="#0098B8">85K+</text>
+    <rect x="342" y="90" width="0" height="3.5" rx="1.75" fill="#0098B8"><animate attributeName="width" from="0" to="36" dur="0.5s" begin="0.8s" fill="freeze"/></rect>
+    <text x="360" y="116" text-anchor="middle" class="lbl">lines of TypeScript</text>
+    <text x="360" y="136" text-anchor="middle" class="lbl">in one live product</text>
   </g>
-  <g>
-    <rect x="725" y="28" width="219" height="114" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <text x="834" y="82" text-anchor="middle" class="num" fill="#B45309">2028</text>
-    <text x="834" y="106" text-anchor="middle" class="lbl">global rank of 100,000+</text>
-    <text x="834" y="124" text-anchor="middle" class="lbl">TCS CodeVita S13 · top ~2%</text>
+
+  <!-- tile 3: 12 PRs -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.6s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0 12;0 0"/>
+    <text x="600" y="76" text-anchor="middle" class="num" fill="#4285F4">12</text>
+    <rect x="582" y="90" width="0" height="3.5" rx="1.75" fill="#4285F4"><animate attributeName="width" from="0" to="36" dur="0.5s" begin="1.0s" fill="freeze"/></rect>
+    <text x="600" y="116" text-anchor="middle" class="lbl">PRs @ Google's gemini-cli</text>
+    <text x="600" y="136" text-anchor="middle" class="lbl">1 merged · 3 open</text>
   </g>
-  <g>
-    <rect x="960" y="28" width="219" height="114" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <text x="1069" y="82" text-anchor="middle" class="num" fill="#BE185D">196</text>
-    <text x="1069" y="106" text-anchor="middle" class="lbl">LeetCode problems solved</text>
-    <text x="1069" y="124" text-anchor="middle" class="lbl">91 Medium · 14 Hard</text>
+
+  <!-- tile 4: Top ~2% -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.6s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0 12;0 0"/>
+    <text x="840" y="76" text-anchor="middle" class="num" fill="#8B5CF6">Top ~2%</text>
+    <rect x="822" y="90" width="0" height="3.5" rx="1.75" fill="#8B5CF6"><animate attributeName="width" from="0" to="36" dur="0.5s" begin="1.2s" fill="freeze"/></rect>
+    <text x="840" y="116" text-anchor="middle" class="lbl">TCS CodeVita Season 13</text>
+    <text x="840" y="136" text-anchor="middle" class="lbl">Global Rank 2028 of 100K+</text>
+  </g>
+
+  <!-- tile 5: 170+ -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.9s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.6s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0 12;0 0"/>
+    <text x="1080" y="76" text-anchor="middle" class="num" fill="#E1519E">170+</text>
+    <rect x="1062" y="90" width="0" height="3.5" rx="1.75" fill="#E1519E"><animate attributeName="width" from="0" to="36" dur="0.5s" begin="1.4s" fill="freeze"/></rect>
+    <text x="1080" y="116" text-anchor="middle" class="lbl">LeetCode problems</text>
+    <text x="1080" y="136" text-anchor="middle" class="lbl">solved &amp; counting</text>
   </g>
 </svg>
