@@ -1,7 +1,14 @@
-<svg width="100%" viewBox="0 0 960 236" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deevi Eswar — Backend and AI engineer. Systems that survive production.">
+<svg width="100%" viewBox="0 0 960 236" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deevi Eswar — Software Engineer. I build systems that survive production.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D9F5"/>
+      <stop offset="0.55" stop-color="#00F5A0"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
   <style>
     .name { font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; font-size: 56px; letter-spacing: -0.5px; fill: #1F2328; }
-    .role { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 19px; fill: #57606A; }
+    .role { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 18px; fill: #57606A; }
     .mono { font-family: 'SFMono-Regular', ui-monospace, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; fill: #6E7781; }
     .ok   { fill: #1A7F37; }
     .dot  { fill: #1A7F37; animation: pulse 2.8s ease-in-out infinite; }
@@ -11,12 +18,21 @@
 
   <rect width="960" height="236" fill="#FFFFFF"/>
 
-  <text x="64" y="102" class="name">Deevi Eswar</text>
-  <text x="64" y="138" class="role">Backend &amp; AI engineer — I build systems that survive production.</text>
+  <!-- contribution-grid motif (brand cyan/mint ramp) -->
+  <g>
+    <rect x="684" y="48" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="702" y="48" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="720" y="48" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="738" y="48" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="756" y="48" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="774" y="48" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="792" y="48" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="810" y="48" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="828" y="48" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="846" y="48" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="864" y="48" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="882" y="48" width="14" height="14" rx="3" fill="#C9F2F9"/>
+    <rect x="684" y="66" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="702" y="66" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="720" y="66" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="738" y="66" width="14" height="14" rx="3" fill="#00B8D9"/><rect x="756" y="66" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="774" y="66" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="792" y="66" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="810" y="66" width="14" height="14" rx="3" fill="#00F5A0"/><rect x="828" y="66" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="846" y="66" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="864" y="66" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="882" y="66" width="14" height="14" rx="3" fill="#7FE8F6"/>
+    <rect x="684" y="84" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="702" y="84" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="720" y="84" width="14" height="14" rx="3" fill="#00B8D9"/><rect x="738" y="84" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="756" y="84" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="774" y="84" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="792" y="84" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="810" y="84" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="828" y="84" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="846" y="84" width="14" height="14" rx="3" fill="#00B8D9"/><rect x="864" y="84" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="882" y="84" width="14" height="14" rx="3" fill="#2BD9F0"/>
+    <rect x="684" y="102" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="702" y="102" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="720" y="102" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="738" y="102" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="756" y="102" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="774" y="102" width="14" height="14" rx="3" fill="#00B8D9"/><rect x="792" y="102" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="810" y="102" width="14" height="14" rx="3" fill="#EAEEF2"/><rect x="828" y="102" width="14" height="14" rx="3" fill="#7FE8F6"/><rect x="846" y="102" width="14" height="14" rx="3" fill="#2BD9F0"/><rect x="864" y="102" width="14" height="14" rx="3" fill="#C9F2F9"/><rect x="882" y="102" width="14" height="14" rx="3" fill="#00B8D9"/>
+  </g>
 
-  <line x1="64" y1="172" x2="896" y2="172" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="64" y="102" class="name">Deevi Eswar</text>
+  <rect x="64" y="118" width="196" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="64" y="152" class="role">Software Engineer — I build systems that survive production.</text>
+
+  <line x1="64" y1="176" x2="896" y2="176" stroke="#D0D7DE" stroke-width="1"/>
 
   <circle class="dot" cx="70" cy="201" r="4"/>
-  <text x="84" y="206" class="mono">in production: PaperCheck AI · CA GURU  ·  <tspan class="ok">merged</tspan> @ google-gemini/gemini-cli</text>
+  <text x="84" y="206" class="mono">in production: PaperCheck AI · CA GURU · <tspan class="ok">merged</tspan> @ gemini-cli</text>
   <text x="896" y="206" class="mono" text-anchor="end">open to SWE roles · 2026</text>
 </svg>
